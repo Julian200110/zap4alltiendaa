@@ -26,7 +26,7 @@ const SalesTable = ({
   setValueUnit,
 }) => {
   const [searchData, setSearchData] = useState("");
-  const uri = "https://zap4allserver.herokuapp.com";
+  const uri = "http://zap4allserver.herokuapp.com";
   const handleEditRow = async (id) => {
     if (window.confirm("Are you sure you want to edit this purchase?")) {
       const row = rows.find((row) => row._id === id);

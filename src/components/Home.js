@@ -4,7 +4,7 @@ import Card from "./Card";
 import "./styles/Home.css";
 
 const Home = () => {
-  const uri = "https://zap4allserver.herokuapp.com/products";
+  const uri = "http://zap4allserver.herokuapp.com/products";
   const [rows, setRows] = useState([]);
 
   const fetchData = async () => {

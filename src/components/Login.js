@@ -19,7 +19,7 @@ import axios from "axios";
 import { v4 as uuidv4 } from "uuid";
 
 const Login = () => {
-  const uri = "https://zap4allserver.herokuapp.com/usuarios";
+  const uri = "http://zap4allserver.herokuapp.com/usuarios";
   const dispatch = useDispatch();
   const [users, setUsers] = useState([]);
   const [isLogin, setIsLogin] = useState(true);

@@ -12,7 +12,7 @@ import "../styles/Producto.css";
 
 const ProductsModule = () => {
   const user = useSelector(selectUser);
-  const uri = "https://zap4allserver.herokuapp.com";
+  const uri = "http://zap4allserver.herokuapp.com";
   const [rows, setRows] = useState([]);
   const [searchData, setSearchData] = useState("");
   const [isEditing, setIsEditing] = useState({ state: false, id: "" });
