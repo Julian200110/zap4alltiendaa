@@ -15,7 +15,7 @@ import "../styles/Usuarios.css";
 
 const UsersModule = () => {
   const user = useSelector(selectUser);
-  const uri = "http://zap4allserver.herokuapp.com/usuarios";
+  const uri = "http://localhost:8080/usuarios";
   const [searchData, setSearchData] = useState("");
   const [rows, setRows] = useState([]);
   const [isEditing, setIsEditing] = useState({ state: false, id: "" });

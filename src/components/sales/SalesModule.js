@@ -12,7 +12,7 @@ import NoPermits from "../NoPermits";
 import emailjs from "emailjs-com";
 
 const SalesModule = () => {
-  const uri = "http://zap4allserver.herokuapp.com";
+  const uri = "http://localhost:8080";
   const user = useSelector(selectUser);
   const [anchorEl, setAnchorEl] = useState(null);
   const open = Boolean(anchorEl);
